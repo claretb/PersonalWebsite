@@ -62,7 +62,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* Open here for projects page
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -74,7 +73,7 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -86,16 +85,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* Open here for blog tab
             <Nav.Item>
               <Nav.Link
-                href="https://blog.talhayranci.com/"
+                href="https://musavver.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "3px" }} /> Blog
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
