@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.176bbb5c.css",
+    "main.js": "/static/js/main.42294246.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.7ae5992fcbb6cbbb4024.png",
+    "static/media/CV.pdf": "/static/media/CV.407763d52f709a03c132.pdf",
+    "static/media/codeEditor.png": "/static/media/codeEditor.ba9458794dca1c746ef2.png",
+    "static/media/blog.png": "/static/media/blog.52102140f369ea233010.png",
+    "static/media/chatify.png": "/static/media/chatify.9373eddae1a258056c35.png",
+    "static/media/leaf.png": "/static/media/leaf.4c15d6eb3fc75cfef85b.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/suicide.png": "/static/media/suicide.b72f1f9ffeb4775a7803.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/webots.png": "/static/media/webots.efb47eb52c02d88c4c62.png",
+    "static/media/emotion.jpeg": "/static/media/emotion.e92e314a236f65bb89af.jpeg",
+    "static/media/tsLogo.svg": "/static/media/tsLogo.058ac4742915796e473ae463bd737d92.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.176bbb5c.css.map": "/static/css/main.176bbb5c.css.map",
+    "main.42294246.js.map": "/static/js/main.42294246.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.176bbb5c.css",
+    "static/js/main.42294246.js"
+  ]
+}
