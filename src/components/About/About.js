@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I am</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -44,8 +44,9 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Github />
+        
+        {/* You can open here if you want.
+        <Github /> */}
       </Container>
     </Container>
   );

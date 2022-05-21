@@ -1,37 +1,47 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { 
+  BiPencil,
+  BiWalk,
+  BiFootball,
+  BiHeart,
+} from "react-icons/bi";
+import tsLogo from "../../Assets/tsLogo.svg";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+          <p style={{ textAlign: "left" }}>
+            Hi Everyone, I am <span className="purple">Talha Enes Ayranci</span>.
+            <br />I am a Software Engineer and a Robotics and Artificial Intelligence MSc student at the University of Glasgow.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, there are some other activities that I like to do!
           </p>
+
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <BiPencil className="purple" style={{ marginBottom: "3px", fontSize: "150%"  }}/> Writing Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <BiFootball className="purple" style={{ marginBottom: "3px", fontSize: "150%"  }}/> Football (I am a passionate Trabzonspor fan! <img src={tsLogo} style={{ maxWidth: "24px", paddingBottom: "1%" }}/>)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <BiWalk className="purple" style={{ marginBottom: "3px", fontSize: "150%" }}/> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ textAlign: "left" }}>
+            <br />
+            Married. <BiHeart className="purple" style={{ marginBottom: "3px", fontSize: "150%" }}/>
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          <p style={{ color: "rgb(155 126 172)" }}>
+          <i> <b>"One awake enough to awaken all sleepers!"</b> </i>
+          </p>
+          <footer className="blockquote-footer"><b>Malcolm X</b></footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -1,52 +1,59 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiWebassembly,
+  SiCplusplus,
+  SiCsharp,
+  SiPython,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiGit,
+  SiRos,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiCplusplus />
+        <p style={{ fontSize: "24px" }}>C++</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiCsharp />
+        <p style={{ fontSize: "24px" }}>C#</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiPython /> 
+        <p style={{ fontSize: "24px" }}>Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <span class="iconify" data-icon="file-icons:matlab"></span>
+        <p style={{ fontSize: "24px" }}>MATLAB</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiRos />
+        <p style={{ fontSize: "24px" }}>ROS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiJavascript />
+        <p style={{ fontSize: "24px" }}>Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiWebassembly />
+        <p style={{ fontSize: "24px" }}>WebAssembly</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiReact />
+        <p style={{ fontSize: "24px" }}>React</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiNodedotjs />
+        <p style={{ fontSize: "24px" }}>NodeJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiGit />
+        <p style={{ fontSize: "24px" }}>Git</p>
       </Col>
     </Row>
   );

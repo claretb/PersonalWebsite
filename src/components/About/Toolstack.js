@@ -1,30 +1,35 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
+  SiApple,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
-  SiVercel,
+  SiWordpress,
 } from "react-icons/si";
+import webotsLogo from "../../Assets/webots.png";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiApple />
+        <p style={{ fontSize: "24px" }}>Apple</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+        <p style={{ fontSize: "24px" }}>Visual Studio</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <img src={webotsLogo} style={{ maxWidth: "45%", transform: [{ scaleX: "-1" }]}}/>
+        <p style={{ fontSize: "24px" }}>Webots</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+        <p style={{ fontSize: "24px" }}>Postman</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiWordpress />
+        <p style={{ fontSize: "24px" }}>Wordpress</p>
       </Col>
     </Row>
   );
