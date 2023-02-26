@@ -20,10 +20,10 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I am a
-              <i> <b className="purple"> Robotics and AI MSc </b> </i>
+              <i> <b className="purple"> PhD </b> </i>
               student at the
-              <i> <b className="purple"> University of Glasgow </b> </i>
-              .
+              <i> <b className="purple"> University of Glasgow</b> </i>
+              Computer Science School .
               <br />
               <br />
               My research interests are
@@ -34,7 +34,9 @@ function Home2() {
               <br />
               especially in
               <i> <b className="purple"> Robotics </b> </i>
-              area.
+              area and 
+              <i> <b className="purple"> Computer Science Education </b> </i>
+              .
               <br />
               <br />
               I also have some knowledge about

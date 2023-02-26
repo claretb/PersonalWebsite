@@ -14,8 +14,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "left" }}>
-            Hi Everyone, I am <span className="purple">Talha Enes Ayranci</span>.
-            <br />I am a Software Engineer and a Robotics and Artificial Intelligence MSc student at the University of Glasgow.
+            Hi, I am <span className="purple">Talha Enes Ayranci</span>.
+            <br />
+            <br />I did my master's degree in Robotics and Artificial Intelligence at the University of Glasgow
+            and I am currently a PhD candidate.
+            <br />
+            <br />My research focuses on using smartphones and robotics for computer science education
+            - especially for machine learning.
             <br />
             <br />
             Apart from coding, there are some other activities that I like to do!

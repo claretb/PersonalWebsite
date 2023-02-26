@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import noImage from "../../Assets/Projects/noImage.png";
 import robotFootball from "../../Assets/Projects/robotFootball.png";
+import projectFigure from "../../Assets/Projects/projectFigure.png";
 
 function Projects() {
   return (
@@ -17,6 +18,21 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={projectFigure}
+              isLinkAvailable={true}
+              isVideoAvailable={true}
+              title="Mobile and Simulation Based Self-Driving Car"
+              description="This is my MSc dissertation project and with this project,
+              a very useful, inexpensive and attractive system that can enable smartphones
+              to be used in deep learning and programming education has been proposed and designed.
+              Javascript was used for both the development of environment and ML models."
+              link="https://github.com/claretb/self-driving-car-simulation"
+              videoLink="https://youtu.be/ntBm9mr4_ug"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={robotFootball}

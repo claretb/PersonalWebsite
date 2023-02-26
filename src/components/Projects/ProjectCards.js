@@ -23,6 +23,15 @@ function ProjectCards(props) {
           View Project
         </Button>
         : ""}
+
+        {props.isVideoAvailable ? 
+        <div style={{ marginTop: "10px"}}>
+          <Button variant="success" href={props.videoLink} target="_blank">
+            <BiLinkExternal style={{ marginBottom: "3px", fontSize: "150%" }}/> &nbsp;
+            Project Video
+          </Button>
+        </div>
+        : ""}
         
       </Card.Body>
     </Card>
