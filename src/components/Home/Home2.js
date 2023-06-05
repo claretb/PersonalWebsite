@@ -23,7 +23,7 @@ function Home2() {
               <i> <b className="purple"> PhD </b> </i>
               student at the
               <i> <b className="purple"> University of Glasgow</b> </i>
-              Computer Science School .
+              Computing Science School .
               <br />
               <br />
               My research interests are
